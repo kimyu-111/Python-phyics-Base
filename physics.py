@@ -17,11 +17,31 @@ print(cross(A,B))# 벡터사이는 항상 콤마로 찍힌다. CROSS PRODOCT
 v=0+0.45*1.5
 print(v)
 # program 
-x=0
-y=0
+x=0 #m
+v=0.45 # m/s
 t=0
-dt=0.25
+dt=0.25 #time unit
 while(t<1.5):
-    print("t=",t)
+    x=x+v*dt
     t=t+dt
+    print()
+print("x=",x,"m")# unit "m"
+
+# Accelerating cart 
+x=0
+t=0
+dt=.1 # 
+v=0.45
+a=-0.2
+while True:# v>=0: 
+    v=v+a*dt
+    x=x+v*dt
+    t=t+dt
+    if (v<=0): # v==0 is very dangerous cus computer use float 
+        print("object stop")
+        break
     
+
+print("x=",x)
+print("t=",t)
+
