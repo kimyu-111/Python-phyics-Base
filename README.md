@@ -42,3 +42,6 @@
 <br>
 ##14.Using Monte Carlo to find E due to a Charged Sphere
 <img width="1727" height="1017" alt="image" src="https://github.com/user-attachments/assets/8eace741-fa69-40a5-918a-788c035a3851" />
+<br>
+##15.Electric Potential due to a Point Charge
+<img width="1269" height="1090" alt="image" src="https://github.com/user-attachments/assets/6bea798c-a377-47e5-b7d8-3ad817ae4835" />
